@@ -8,26 +8,9 @@ export class VoteCountDirective {
   downVotes: number = 0
 
 
-  @HostListener('click') addVotes(){}
-
-  @HostListener("click") addDownVotes(){}
 
 
   constructor(private elem:ElementRef) {
    }
-
-   add(tap: boolean){
-     if(tap){
-       this.upVotes++;
-     }
-   }
-
-   down(tap: boolean){
-     if(!tap){
-       this.downVotes++;
-     }
-   }
-
-
 
 }

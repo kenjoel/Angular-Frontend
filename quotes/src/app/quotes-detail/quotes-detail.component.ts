@@ -8,7 +8,27 @@ import { quotes } from "../quotes"
 })
 export class QuotesDetailComponent implements OnInit {
 
-  @Input() description: quotes
+  upVotes:number =  0 
+  downVotes: number = 0
+
+  @Input() description: quotes;
+
+  add(tap: boolean){
+    if(tap){
+      this.upVotes++;
+    }
+    console.log(this.upVotes)
+  }
+
+  down(tap: boolean){
+    if(tap){
+      this.downVotes++;
+    }
+    console.log(this.downVotes)
+  }
+
+
+
 
   constructor() { }
 
