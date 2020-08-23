@@ -4,6 +4,8 @@ import { Directive } from '@angular/core';
   selector: '[appVoteCount]'
 })
 export class VoteCountDirective {
+  upVotes:number =  0 
+  downVotes: number = 0
 
   constructor() { }
 
