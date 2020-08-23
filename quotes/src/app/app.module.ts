@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuotesDetailComponent } from './quotes-detail/quotes-detail.component';
 import { NewquoteComponent } from './newquote/newquote.component';
+import { VoteCountDirective } from './vote-count.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesDetailComponent,
-    NewquoteComponent
+    NewquoteComponent,
+    VoteCountDirective
   ],
   imports: [
     BrowserModule,

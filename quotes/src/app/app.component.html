@@ -11,7 +11,7 @@
         </div>
         <button class="btn btn-info" (click)='showDetails(i)'>details</button>
         <div class="description">
-          <app-quote-details *ngIf="quote.showDetails" [description]='quote'></app-quote-details>
+          <app-quotes-detail *ngIf="quote.showDetails" [description]='quote'></app-quotes-detail>
         </div>
       </div>
     </div>
