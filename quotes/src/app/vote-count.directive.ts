@@ -1,12 +1,13 @@
-import { Directive, ElementRef, HostListener } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
   selector: '[appVoteCount]'
 })
 export class VoteCountDirective {
-  upVotes:number =  0 
-  downVotes: number = 0
+  upVotes:number =  0;
+  downVotes: number = 0;
 
+  
 
 
 

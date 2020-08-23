@@ -17,7 +17,7 @@ export class QuotesDetailComponent implements OnInit {
     if(tap){
       this.upVotes++;
     }
-    console.log(this.upVotes)
+    return this.upVotes
   }
 
   down(tap: boolean){

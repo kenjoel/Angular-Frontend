@@ -9,7 +9,7 @@ import { quotes } from "../quotes"
 export class NewquoteComponent implements OnInit {
   @Output() newQuote = new EventEmitter<quotes>();
 
-  quoteHolder = new quotes("","","");
+  quoteHolder = new quotes("","","", new Date());
 
   renderContentToParent(){
     this.newQuote.emit(this.quoteHolder)

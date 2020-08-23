@@ -8,8 +8,8 @@ import { quotes } from './quotes'
 })
 export class AppComponent {
   quotes: quotes[] = [
-    new quotes("for everything that happens, there's a reason","socratis", "kenjoel"),
-    new quotes("a russian wedding should be called a soviet union", "lex fridman", "Pres. Joel Muigai")
+    new quotes("for everything that happens, there's a reason","socratis", "kenjoel",new Date()),
+    new quotes("a russian wedding should be called a soviet union", "lex fridman", "Pres. Joel Muigai",new Date())
   ]
 
   showDetails(index){
