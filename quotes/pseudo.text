@@ -1,0 +1,11 @@
+I am creating a quotes app.
+
+describe(take in a users quotes, author and the person who wrote it){
+    it should(have a model class for quotes, authors and writers) //done
+    it should(have a component for the layout); //done
+    it should(accomodate details about the quote and toggele between showing and hiding the details); //done
+    it should(allow users to create new quotes and each quote should have initial value of 0);    
+    it should(allow users to upvote or downvote a quote)
+    it should(display how many upvotes/downquotes a quote has)
+    it should(display how many days have passed since the quote was created)
+}
