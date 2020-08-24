@@ -1,1 +1,8 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.container{
+    background-color: darkblue;
+    font-size: larger;
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times 'New Roman', serif";
+}
+

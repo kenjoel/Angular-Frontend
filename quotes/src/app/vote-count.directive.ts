@@ -14,9 +14,11 @@ export class VoteCountDirective {
 
   private counter(value: boolean){
     if(value){
-      return this.upVotes++
+      this.upVotes++
+      return this.upVotes
     }else if(!value){
-      console.log(this.downVotes++)
+      this.downVotes++
+      return this.downVotes
     }else{
       return 0
     }

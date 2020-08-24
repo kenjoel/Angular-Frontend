@@ -8,8 +8,10 @@ import { quotes } from './quotes'
 })
 export class AppComponent {
   quotes: quotes[] = [
-    new quotes("for everything that happens, there's a reason","socratis", "kenjoel",new Date()),
-    new quotes("a russian wedding should be called a soviet union", "lex fridman", "Pres. Joel Muigai",new Date())
+    new quotes("“The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.”","Michael Cain", "kenjoel",new Date()),
+    new quotes("“When I dare to be powerful – to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.”"
+    , "lex fridman", "Pres. Joel Muigai",new Date()),
+    new quotes("“A successful man is one who can lay a firm foundation with the bricks others have thrown at him.”", "David Brinkly","KenJoel Muigai", new Date())
   ]
 
   showDetails(index){
