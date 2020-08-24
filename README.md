@@ -5,7 +5,7 @@ By **Ken-Joel Gichuhi Muigai **
 
 ## Description
 
-When in need of inspiration, motivation or advice, this app contains all in one. From the most prominent men, this highlights the most famous quotes and they can as well be inspirations to generations themselves.
+When in need of inspiration, motivation or advice, this app contains all in one. From the most prominent men, this highlights the most famous quotes written by prominent individuals and allows users to create their own quotes which can as well be inspirations to generations themselves.
 
 ## Setup/Installation Requirements
 
