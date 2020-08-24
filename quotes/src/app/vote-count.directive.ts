@@ -12,19 +12,19 @@ export class VoteCountDirective {
     this.counter(null)
   }
 
-  counter(value: boolean){
+  private counter(value: boolean){
     if(value){
-      console.log(this.upVotes++)
+      return this.upVotes++
     }else if(!value){
       console.log(this.downVotes++)
     }else{
       return 0
     }
-
   }
-
+    
 
   constructor(private elem:ElementRef) {
+    // elem.nativeElement.createElement(`<p>This quote has received ${this.counter(null)} likes </p>`)
    }
 
 }
