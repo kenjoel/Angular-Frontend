@@ -7,6 +7,7 @@ import { quotes } from "../quotes"
   styleUrls: ['./newquote.component.css']
 })
 export class NewquoteComponent implements OnInit {
+
   @Output() newQuote = new EventEmitter<quotes>();
 
   quoteHolder = new quotes("","","", new Date());

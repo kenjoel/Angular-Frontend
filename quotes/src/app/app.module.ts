@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { QuotesDetailComponent } from './quotes-detail/quotes-detail.component';
 import { NewquoteComponent } from './newquote/newquote.component';
 import { VoteCountDirective } from './vote-count.directive';
+import { TeacherPipe } from './teacher.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesDetailComponent,
     NewquoteComponent,
-    VoteCountDirective
+    VoteCountDirective,
+    TeacherPipe
   ],
   imports: [
     BrowserModule,

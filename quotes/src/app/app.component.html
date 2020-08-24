@@ -13,7 +13,7 @@
         <div class="main-container" *ngFor = "let quote of quotes; let i = index">
           <div class="quotes">
           <p>Quote: {{quote.quote}}</p>
-          <span>Submitted on {{quote.submitDate}}</span>       
+          <span class="font-italic">Submitted {{quote.submitDate| teacher}} days ago</span>       
         </div>
         <button class="btn btn-info" (click)='showDetails(i)'>details</button>
         <div class="description">
